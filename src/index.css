@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  border: 1px solid #ccc;
+  width: 100vw;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #fff;
+    background-color: #213547;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.8rem;
+}
+
+section ol li,
+section ul li {
+  margin: 0.75rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  border: 1px solid #ccc;
+  margin: 10px;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  font-size: 1.25rem;
+}
+
+.form {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 1rem 2rem 2rem;
+  padding: 1rem 2rem;
+}
+
+.form label {
+  font-size: 1.25rem;
+  float: left;
+}
+
+.form-select,
+.form-button-delete,
+.form-button,
+.form-button-save,
+.form .form-textarea,
+.form .form-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  margin: 0.4rem 0;
+}
+
+.form .form-textarea {
+  font-size: 1rem;
+}
+
+.form-button,
+.form-button-delete,
+.form-button-save {
+  cursor: pointer;
+}
+
+.form-button-delete {
+  background-color: rgb(236, 97, 97);
+}
+
+.form-button-emoji {
+  width: 15%;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.errorpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 5rem auto;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+i {
+  margin: 1.5rem;
+}
+
+header {
+  margin: 2rem auto;
+  border-bottom: 1px solid #eee;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: bisque;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+nav a {
+  color: wheat;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: wheat;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.postCredit {
+  margin: 1.2rem;
+}
+
+.button-count {
+  font-size: 1.25rem;
+  padding: .5rem 1rem;
+  font-weight: 900;
+}
