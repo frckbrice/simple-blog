@@ -55,7 +55,7 @@ and to users to see the list of users, etc.
 
 👤 **Avom Brice**
 
-- GitHub: [@johndoe](https://github.com/frckbrice)
+- GitHub: [@frckbrice](https://github.com/frckbrice)
 - Twitter: [@FranckBrice](https://twitter.com/FranckBrice)
 
 
